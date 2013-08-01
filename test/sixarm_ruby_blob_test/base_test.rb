@@ -5,13 +5,6 @@ SimpleCov.start
 
 describe Blob do
 
-  # We choose to use Unix-friendly file names: lowercase a-z and underscores,
-  # always with "/" as a directory separator, typically with a dot extension,
-  # never with non-ASCII characters.
-  BASE_MATCH = /^[0-1a-z\_\.]+$/
-  DIR_MATCH = /^[0-1a-z\_\/]+$/
-  PATH_MATCH = /^[0-1a-z\_\/\.]+$/
-
   let(:blob){ Factory.build(:blob, name: FAB.name) }
 
   describe "equality" do

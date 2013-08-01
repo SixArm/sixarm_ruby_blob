@@ -30,7 +30,7 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_blob", "~>1.0.0"	
+    gem "sixarm_ruby_blob", "~>1.0.1"	
 
 Require:
 

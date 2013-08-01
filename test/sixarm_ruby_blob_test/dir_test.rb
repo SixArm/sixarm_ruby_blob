@@ -13,19 +13,19 @@ describe Blob do
   # always with "/" as a directory separator, typically with a dot extension,
   # never with non-ASCII characters.
   #
-  BASE_MATCH = /^[0-1a-z\_\.]+$/
-  DIR_MATCH = /^[0-1a-z\_\/]+$/
-  PATH_MATCH = /^[0-1a-z\_\/\.]+$/
+  let(:base_match){ /^[0-1a-z\_\.]+$/ }
+  let(:dir_match){ /^[0-1a-z\_\/]+$/ }
+  let(:path_match){ /^[0-1a-z\_\/\.]+$/ }
 
   describe "#base" do
     it "uses a good unix name" do
-      blob.base.must_match BASE_MATCH
+      blob.base.must_match base_match
     end
   end
 
   describe "#dir" do
     it "uses a good unix name" do
-      blob.dir.must_match DIR_MATCH
+      blob.dir.must_match dir_match
     end
   end
 
