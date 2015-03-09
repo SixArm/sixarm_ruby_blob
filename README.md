@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> Blob of data abstract base class
+# Ruby » <br> Blob of data abstract base class
 
 * Doc: <http://sixarm.com/sixarm_ruby_blob/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_blob>
