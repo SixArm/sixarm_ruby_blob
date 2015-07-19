@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-require "minitest/autorun"
-require "simplecov"
-SimpleCov.start
+require "sixarm_ruby_blob_test"
 
 describe Blob do
 

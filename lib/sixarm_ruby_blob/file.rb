@@ -1,5 +1,11 @@
-# Blob file methods for accessing a blob via the filesystem.
-# Exclusively for the Blob class.
+# -*- coding: utf-8 -*-
+=begin rdoc
+
+Blob file methods for accessing a blob via the filesystem.
+
+Exclusively for the Blob class.
+
+=end
 
 class Blob
 

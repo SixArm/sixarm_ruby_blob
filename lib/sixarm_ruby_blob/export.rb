@@ -1,5 +1,11 @@
-# Blob methods for exporting.
-# Exclusively for the Blob class.
+# -*- coding: utf-8 -*-
+=begin rdoc
+
+Blob methods for exporting.
+
+Exclusively for the Blob class.
+
+=end
 
 class Blob
 

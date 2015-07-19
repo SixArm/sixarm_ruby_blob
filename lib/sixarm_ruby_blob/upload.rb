@@ -1,5 +1,11 @@
-# Blob method to upload from a web page.
-# Exclusively for the Blob class.
+# -*- coding: utf-8 -*-
+=begin rdoc
+
+Blob method to upload from a web page.
+
+Exclusively for the Blob class.
+
+=end
 
 class Blob
 

@@ -1,5 +1,11 @@
-# Blob URI methods for accessing a blob via the web. 
-# Exclusively for the Blob class.
+# -*- coding: utf-8 -*-
+=begin rdoc
+
+Blob URI methods for accessing a blob via the web. 
+
+Exclusively for the Blob class.
+
+=end
 
 class Blob
 

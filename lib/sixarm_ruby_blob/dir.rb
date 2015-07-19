@@ -1,5 +1,10 @@
-# Blob methods for accessing a blob via a dir name and base name.
-# Exclusively for the Blob class.
+# -*- coding: utf-8 -*-
+=begin rdoc
+
+Blob methods for accessing a blob via a dir name and base name.
+Exclusively for the Blob class.
+
+=end
 
 class Blob
   

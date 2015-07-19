@@ -1,8 +1,20 @@
-# Ruby » <br> Blob of data abstract base class
+# SixArm.com » Ruby » <br> Blob of data abstract base class
 
+<!--HEADER-OPEN-->
+
+[![Gem Version](https://badge.fury.io/rb/sixarm_ruby_blob.svg)](http://badge.fury.io/rb/sixarm_ruby_blob)
+[![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_blob.png)](https://travis-ci.org/SixArm/sixarm_ruby_blob)
+[![Code Climate](https://codeclimate.com/github/SixArm/sixarm_ruby_blob.png)](https://codeclimate.com/github/SixArm/sixarm_ruby_blob)
+[![Coverage Status](https://coveralls.io/repos/SixArm/sixarm_ruby_blob/badge.svg?branch=master&service=github)](https://coveralls.io/github/SixArm/sixarm_ruby_blob?branch=master)
+
+* Git: <https://github.com/sixarm/sixarm_ruby_blob>
 * Doc: <http://sixarm.com/sixarm_ruby_blob/doc>
-* Gem: <http://rubygems.org/gems/sixarm_ruby_blob>
-* Repo: <http://github.com/sixarm/sixarm_ruby_blob>
+* Gem: <https://rubygems.org/gems/sixarm_ruby_blob>
+* Contact: Joel Parker Henderson, <joel@sixarm.com>
+* Changes: See CHANGES.md file.
+* License: See LICENSE.md file.
+* Helping: See CONTRIBUTING.md file.
+
 <!--HEADER-SHUT-->
 
 ## Introduction
@@ -28,17 +40,17 @@ Want to help? We're happy to get pull requests.
 
 To install using a Gemfile, add this:
 
-    gem "sixarm_ruby_blob", ">= 1.0.2", "< 2"
+    gem "sixarm_ruby_blob", ">= 1.0.3", "< 2"
 
 To install using the command line, run this:
 
-    gem install sixarm_ruby_blob -v ">= 1.0.2, < 2"
+    gem install sixarm_ruby_blob -v ">= 1.0.3, < 2"
 
 To install using the command line with high security, run this:
 
     wget http://sixarm.com/sixarm.pem
     gem cert --add sixarm.pem && gem sources --add http://sixarm.com
-    gem install sixarm_ruby_blob -v ">= 1.0.2, < 2" --trust-policy HighSecurity
+    gem install sixarm_ruby_blob -v ">= 1.0.3, < 2" --trust-policy HighSecurity
 
 To require the gem in your code:
 
