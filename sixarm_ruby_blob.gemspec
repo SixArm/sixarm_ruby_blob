@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name           = "sixarm_ruby_blob"
-  s.summary        = "SixArm.com » Ruby » Blob of data abstract base class"
+  s.summary        = "SixArm.com → Ruby → Blob of data abstract base class"
   s.description    = "Keep track of data as a file, or URI, with basic upload etc."
   s.version        = "1.0.3"
 
