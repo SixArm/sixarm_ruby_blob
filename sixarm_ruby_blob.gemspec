@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_blob"
   s.summary        = "SixArm.com → Ruby → Blob of data abstract base class"
   s.description    = "Keep track of data as a file, or URI, with basic upload etc."
-  s.version        = "1.0.3"
+  s.version        = "1.0.4"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
@@ -44,7 +44,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('sixarm_ruby_fab', '=1.0.0')
 
   s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
-  s.add_development_dependency('sixarm_ruby_minitest_extensions', '= 1.0.5')
+  s.add_development_dependency('sixarm_ruby_minitest_extensions', '>= 1.0.8', '< 2')
   s.add_development_dependency('rake', '> 10.4.2', '< 11')
   s.add_development_dependency('simplecov', '>= 0.10.0', '< 2')
   s.add_development_dependency('coveralls', '>= 0.8.2', '< 2')
