@@ -22,19 +22,19 @@ describe Blob do
       @file_path = blob.file_path
 
       # Delete a previously-uploaded file if it exists
-      File.exists?(@file_path) and File.delete(@file_path)
+      File.exist?(@file_path) and File.delete(@file_path)
 
       # Sanity check
-      File.exists?(tempfile.path).must_be_true "Temp file must exist: #{tempfile.path}"
+      File.exist?(tempfile.path).must_be_true "Temp file must exist: #{tempfile.path}"
 
     end
 
     describe ".upload" do
       
       it "uploads" do
-        File.exists?(@file_path).must_be_false "Blob file must not exist: #{@file_path}"
+        File.exist?(@file_path).must_be_false "Blob file must not exist: #{@file_path}"
         blob.upload(file_field).must_be_true
-        File.exists?(@file_path).must_be_true "Blob file must exist: #{@file_path}"
+        File.exist?(@file_path).must_be_true "Blob file must exist: #{@file_path}"
       end
 
     end
@@ -42,9 +42,9 @@ describe Blob do
     describe "#upload" do
             
       it "uploads" do
-        File.exists?(@file_path).must_be_false "Blob file must not exist: #{@file_path}"
+        File.exist?(@file_path).must_be_false "Blob file must not exist: #{@file_path}"
         Blob.upload(@file_path, file_field).must_be_true
-        File.exists?(@file_path).must_be_true "Blob file must exist: #{@file_path}"
+        File.exist?(@file_path).must_be_true "Blob file must exist: #{@file_path}"
       end
 
     end

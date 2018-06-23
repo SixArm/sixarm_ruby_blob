@@ -1,7 +1,0 @@
-lib/sixarm_ruby_blob.rb 0509344993f18fa3e9adfaf57c7956ed9a8a4ee7
-lib/sixarm_ruby_blob/base.rb c09b99e505a6b8638aee06fdffd07daad8d7d546
-lib/sixarm_ruby_blob/dir.rb dd592f1cfb555d5c05997ab14354d99f33efb1bf
-lib/sixarm_ruby_blob/export.rb 596cde772e5ee12c83665507411f8f087d9b358d
-lib/sixarm_ruby_blob/file.rb 6ae722715e56e6239b1b00dcfe8bbf344c3c04fd
-lib/sixarm_ruby_blob/upload.rb 688897daa1be7b64771dadc94964dcd1a907b8fd
-lib/sixarm_ruby_blob/uri.rb 80f2a6971e26dbb0bc2fdd2eac049d82b90584e2
