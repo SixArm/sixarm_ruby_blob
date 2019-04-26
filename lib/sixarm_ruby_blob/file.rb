@@ -62,18 +62,7 @@ class Blob
   # @return [boolean] iff the file exists
   #
   def file_exist?
-    FileTest.exists? file_path
-  end
-
-  # Return true iff the image exists the way we expect.
-  # Currently, this is simply calling file_exist.
-  # 
-  # @deprecated
-  # @return [boolean] iff the file exists
-  #
-  def exist?
-    Rails.logger.warn "DEPRECATED" 
-    FileTest.exists? file_path
+    FileTest.exist? file_path
   end
 
 end
