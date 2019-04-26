@@ -6,7 +6,7 @@
 <title>
   File: README
   
-    &mdash; Documentation by YARD 0.9.16
+    &mdash; Documentation by YARD 0.9.19
   
 </title>
 
@@ -57,70 +57,65 @@
         <div class="clear"></div>
       </div>
 
-      <div id="content"><div id='filecontents'><h1>SixArm.com → Ruby → <br> Blob of data abstract base class</h1>
-
+      <div id="content"><div id='filecontents'>
+<h1 id="label-SixArm.com+-E2-86-92+Ruby+-E2-86-92++Blob+of+data+abstract+base+class">SixArm.com → Ruby → <br> Blob of data abstract base class</h1>
 <!--header-open-->
-
-<p><a href="http://badge.fury.io/rb/sixarm_ruby_blob"><img src="https://badge.fury.io/rb/sixarm_ruby_blob.svg" alt="Gem Version"></a>
-<a href="https://travis-ci.org/SixArm/sixarm_ruby_blob"><img src="https://travis-ci.org/SixArm/sixarm_ruby_blob.png" alt="Build Status"></a>
-<a href="https://codeclimate.com/github/SixArm/sixarm_ruby_blob/maintainability"><img src="https://api.codeclimate.com/v1/badges/26fa11574942bbe370ca/maintanability" alt="Code Climate"></a></p>
-
-<ul>
-<li>Git: <a href="https://github.com/SixArm/sixarm_ruby_blob">https://github.com/SixArm/sixarm_ruby_blob</a></li>
-<li>Doc: <a href="http://sixarm.com/sixarm_ruby_blob/doc">http://sixarm.com/sixarm_ruby_blob/doc</a></li>
-<li>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_blob">https://rubygems.org/gems/sixarm_ruby_blob</a></li>
-<li>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
-<li>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</li>
-</ul>
-
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_blob"><img src="https://badge.fury.io/rb/sixarm_ruby_blob.svg"></a> <a href="https://travis-ci.org/SixArm/sixarm_ruby_blob"><img src="https://travis-ci.org/SixArm/sixarm_ruby_blob.png"></a> <a href="https://codeclimate.com/github/SixArm/sixarm_ruby_blob/maintainability"><img src="https://api.codeclimate.com/v1/badges/26fa11574942bbe370ca/maintainability"></a></p>
+<ul><li>
+<p>Git: <a href="https://github.com/SixArm/sixarm_ruby_blob">github.com/SixArm/sixarm_ruby_blob</a></p>
+</li><li>
+<p>Doc: <a href="http://sixarm.com/sixarm_ruby_blob/doc">sixarm.com/sixarm_ruby_blob/doc</a></p>
+</li><li>
+<p>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_blob">rubygems.org/gems/sixarm_ruby_blob</a></p>
+</li><li>
+<p>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
+</li><li>
+<p>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</p>
+</li></ul>
 <!--header-shut-->
-
-<h2>Introduction</h2>
+<h2 id="label-Introduction">Introduction</h2>
 
 <p>This is an abstract base class to help us model a blob of data.</p>
 
 <p>We use this class as our parent class for image files, music files, and video files.</p>
 
 <p>A blob provides a few basic capabilities:</p>
+<ul><li>
+<p>Access a blob via a file path on the local filesystem.</p>
+</li><li>
+<p>Access a blob via a URI.</p>
+</li><li>
+<p>Upload a blob by using a typical web browser form.</p>
+</li></ul>
 
-<ul>
-<li>Access a blob via a file path on the local filesystem.</li>
-<li>Access a blob via a URI.</li>
-<li>Upload a blob by using a typical web browser form.</li>
-</ul>
-
-<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_blob/doc">http://sixarm.com/sixarm_ruby_blob/doc</a></p>
+<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_blob/doc">sixarm.com/sixarm_ruby_blob/doc</a></p>
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
-
 <!--install-open-->
+<h2 id="label-Install">Install</h2>
 
-<h2>Install</h2>
-
-<h3>Gem</h3>
+<h3 id="label-Gem">Gem</h3>
 
 <p>To install this gem in your shell or terminal:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_blob'>sixarm_ruby_blob</span>
 </code></pre>
 
-<h3>Gemfile</h3>
+<h3 id="label-Gemfile">Gemfile</h3>
 
 <p>To add this gem to your Gemfile:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_blob</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
 
-<h3>Require</h3>
+<h3 id="label-Require">Require</h3>
 
 <p>To require the gem in your code:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_blob</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
-
 <!--install-shut-->
-
-<h2>Examples</h2>
+<h2 id="label-Examples">Examples</h2>
 
 <p>Create a blob:</p>
 
@@ -136,9 +131,9 @@
 </div></div>
 
       <div id="footer">
-  Generated on Sat Jan  5 18:22:18 2019 by
+  Generated on Thu Apr 25 19:39:23 2019 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.16 (ruby-2.5.1).
+  0.9.19 (ruby-2.6.3).
 </div>
 
     </div>
